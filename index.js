@@ -99,11 +99,11 @@ countdownAttempts(3);
     }
     const priorities=["low","medium","high"];
     getsupportticketpriority(priorities);
-    const countdownQuiz=(Maxcountdown)=>{
-    let countdown=0;
-    while(countdown<=Maxcountdown){
-        console.log(`keep counting`);
-        countdown++;
+    const countdownQuiz=()=>{
+    let countdown=10;
+    while(countdown>=0){
+        console.log(`${countdown}`);
+        countdown--;
     }
 }
-    countdownQuiz(5);
+    countdownQuiz(10);
