@@ -75,7 +75,7 @@ countdownAttempts(3);
         }
         
     };
-    const loginstatus=["loggedin",""];
+    const loginstatus=["loggedin","not logged in"];
     getLoginStatusconfirmation(loginstatus);
     const getsupportticketpriority=(priorities)=>{
         priorities.forEach(priority => {
